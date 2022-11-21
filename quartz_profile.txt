@@ -1,0 +1,168 @@
+-- copy all lines below in C:\Program Files (x86)\World of Warcraft\_retail_\WTF\Account\YourAccountName\SavedVariables\Quartz.lua
+Quartz3DB = {
+	["namespaces"] = {
+		["Swing"] = {
+			["profiles"] = {
+				["Default"] = {
+					["barcolor"] = {
+						0, -- [1]
+						0.9529412388801575, -- [2]
+						0.615686297416687, -- [3]
+						1, -- [4]
+					},
+					["swingposition"] = "bottom",
+				},
+			},
+		},
+		["Buff"] = {
+		},
+		["LibDualSpec-1.0"] = {
+		},
+		["Flight"] = {
+		},
+		["Pet"] = {
+			["profiles"] = {
+				["Default"] = {
+					["x"] = 860,
+				},
+			},
+		},
+		["Range"] = {
+			["profiles"] = {
+				["Default"] = {
+					["rangecolor"] = {
+						0.9372549653053284, -- [1]
+						0.3490196168422699, -- [2]
+						0.03529411926865578, -- [3]
+						1, -- [4]
+					},
+				},
+			},
+		},
+		["EnemyCasts"] = {
+		},
+		["Player"] = {
+			["profiles"] = {
+				["Default"] = {
+					["h"] = 18,
+					["w"] = 294,
+					["y"] = -208,
+					["x"] = 0,
+					["point"] = "CENTER",
+				},
+			},
+		},
+		["GCD"] = {
+			["profiles"] = {
+				["Default"] = {
+					["gcdposition"] = "top",
+				},
+			},
+		},
+		["Focus"] = {
+			["profiles"] = {
+				["Default"] = {
+					["x"] = 860,
+				},
+			},
+		},
+		["Target"] = {
+			["profiles"] = {
+				["Default"] = {
+					["x"] = 860,
+				},
+			},
+		},
+		["Interrupt"] = {
+			["profiles"] = {
+				["Default"] = {
+					["interruptcolor"] = {
+						0.615686297416687, -- [1]
+						0.003921568859368563, -- [2]
+						nil, -- [3]
+						1, -- [4]
+					},
+				},
+			},
+		},
+		["Mirror"] = {
+		},
+		["Latency"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Altàra - Hyjal"] = "Default",
+		["Alta - Maiev"] = "Default",
+		["Altarak - Hyjal"] = "Default",
+		["Altandil - Hyjal"] = "Default",
+		["Altaèl - Dalaran"] = "Default",
+		["Altarès - Hyjal"] = "Default",
+		["Altando - Hyjal"] = "Default",
+		["Altath - Hyjal"] = "Default",
+		["Altafk - Hyjal"] = "Default",
+		["Altanlor - Hyjal"] = "Default",
+		["Niccilas - Hyjal"] = "Default",
+		["Altàar - Dalaran"] = "Default",
+		["Alta - Chants éternels"] = "Default",
+		["Àltà - Hyjal"] = "Default",
+		["Alta - Hyjal"] = "Default",
+		["Altastra - Hyjal"] = "Default",
+		["Rúndil - Hyjal"] = "Default",
+		["Althas - Kirin Tor"] = "Default",
+		["Altadar - Hyjal"] = "Default",
+		["Altaélia - Hyjal"] = "Default",
+		["Altaelia - Ner'zhul"] = "Default",
+		["Altaêl - Hyjal"] = "Default",
+		["Altaar - Hyjal"] = "Default",
+		["Alta - Ner'zhul"] = "Default",
+		["Altarael - Hyjal"] = "Default",
+		["Altàrà - Hyjal"] = "Default",
+		["Daphnë - Hyjal"] = "Default",
+		["Altaelia - Hyjal"] = "Default",
+		["Paraltalysie - Hyjal"] = "Default",
+		["Altàel - Hyjal"] = "Default",
+		["Altara - Hyjal"] = "Default",
+		["Altarnaque - Hyjal"] = "Default",
+		["Montbéliarde - Hyjal"] = "Default",
+		["Altarion - Arathi"] = "Default",
+		["Daenára - Hyjal"] = "Default",
+		["Alta - Arathi"] = "Default",
+		["Altaarion - Hyjal"] = "Default",
+		["Altalatak - Hyjal"] = "Default",
+		["Altarà - Dalaran"] = "Default",
+		["Altaèl - Hyjal"] = "Default",
+		["Glorfendil - Hyjal"] = "Default",
+		["Auríel - Hyjal"] = "Default",
+		["Caietas - Hyjal"] = "Default",
+		["Altarwen - Hyjal"] = "Default",
+		["Altab - Hyjal"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["modules"] = {
+				["Focus"] = false,
+				["Target"] = false,
+				["Pet"] = false,
+				["Buff"] = false,
+			},
+			["spelltextcolor"] = {
+				nil, -- [1]
+				nil, -- [2]
+				nil, -- [3]
+				1, -- [4]
+			},
+			["castingcolor"] = {
+				0, -- [1]
+				0.9529412388801575, -- [2]
+				0.615686297416687, -- [3]
+				1, -- [4]
+			},
+			["timetextcolor"] = {
+				nil, -- [1]
+				nil, -- [2]
+				nil, -- [3]
+				1, -- [4]
+			},
+		},
+	},
+}

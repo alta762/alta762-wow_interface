@@ -1,0 +1,36 @@
+Core addons:
+    - ElvUI (for practically all game interface elements displayed)
+    - Weak Auras
+    - BigWigs (for raid abilities alerts)
+    - Details (for dps/hps/damages taken information)
+    - LittleWigs (for dungeons abilities alerts)
+    - MaxCam (to increase the camera distance of the character)
+    - Method Raid Tools (to have party CDs tracking, raid notes, etc)
+    - Mythic Dungeon Tools (to have ways to follow in dungeons)
+    - OmniCD (to have numbers instead of default display of CDs)
+    - Plater (to have better nameplates)
+    - Quartz (to have a better cast bar)
+    - WA Soundpack (to have more Weak Auras sounds)
+
+
+Healer addons:
+    - BigDebuffs
+    - Decursive (sound alerts when dispells are necessary)
+    - OmniBar
+    - OmniCC
+    - SWRaidCD
+
+
+PvP addons:
+    - GladiatorlosSA (for sound alerts of used abilities)
+    - GladiusEx (for visual tracking of all members of instanciated PvP)
+    - 
+
+Other addons:
+    - GroupfinderFlags (to see the country of any player)
+    - HandyNotes (to see Rares, treasures and other important PvE elements)
+    - Paste (to copy and paste more data, for example, for TomTom ways)
+    - Raider.IO (to see scores of dungeons players)
+    - RaidFadeMore
+    - TomTom (to have map coordinates)
+    - Narcissus (to do beautiful screenshots of my characters)

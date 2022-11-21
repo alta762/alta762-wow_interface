@@ -1,0 +1,430 @@
+! --> Copy macros you want, directly in game, not in C:\Program Files (x86)\World of Warcraft\_retail_\WTF\Account\YourAccountName\macros-cache.txt
+!         => WoW has a macros limit, and one time I have an issue due to macros directly copied and pasted in the file listed above
+
+VER 3 00000000000000DB "1. Halondrus" "537022"
+/click ExtraActionButton1
+END
+VER 3 00000000000000CE "1. Ingé Cape" "INV_MISC_QUESTIONMARK"
+#showtooltip Capuchon d’aile de chauve-souris
+/use Carquois de forestier-sombre
+/use Pèlerine de l’aspirant cosmique
+/cancelaura Parachute
+END
+VER 3 000000000000006E "1. PvP-Dismount" "INV_MISC_QUESTIONMARK"
+#showtooltip Lance-filet automatique 5000
+/use [@mouseover,harm,nodead][harm,nodead]Lance-filet automatique 5000
+END
+VER 3 00000000000000C5 "1. Qui me cible" "INV_MISC_QUESTIONMARK"
+/assist Alta
+END
+VER 3 0000000000000041 "1.Macro HF" "INV_MISC_QUESTIONMARK"
+/use Baume à lèvres anti-verrues
+/kiss
+END
+VER 3 000000000000000B "1.Trinkets Main" "2000859"
+#showtooltip
+/use Le premier cachet
+END
+VER 3 00000000000000E1 "Brez Ingé" "INV_MISC_QUESTIONMARK"
+#showtooltip Réanimateur spectrophasique jetable
+/use [@mouseover,help,dead][help,dead] Réanimateur spectrophasique jetable
+END
+VER 3 000000000000001F "Cancel Levit" "135768"
+/cancelaura Lévitation;
+/cancelaura Chute lente;
+/cancelaura Parachute;
+END
+VER 3 00000000000000DA "CMClass" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Esprits sauvages(Faë nocturnes)
+END
+VER 3 00000000000000D9 "CMSignature" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Forme d’âme
+END
+VER 3 000000000000008C "D-All dispells" "236288"
+#showtooltips
+/cast [spec:4,@mouseover,help,nodead] Soins naturels; [@mouseover,help,nodead] Délivrance de la corruption;[@mouseover,harm,nodead][harm,nodead] Apaiser;
+END
+VER 3 000000000000004B "D-Battle Rez" "136080"
+#showtooltip Renaissance
+/cast [@mouseover,help,dead][help,dead] Renaissance
+END
+VER 3 0000000000000072 "D-CancelStarlord" "1392544"
+#showtooltip Seigneur des étoiles
+/cancelaura Seigneur des étoiles
+END
+VER 3 0000000000000052 "D-Cyclone" "INV_MISC_QUESTIONMARK"
+#showtooltip Cyclone
+/cast [@mouseover,harm,nodead][harm,nodead] Cyclone
+END
+VER 3 0000000000000051 "D-Entangle Roots" "INV_MISC_QUESTIONMARK"
+#showtooltip Sarments
+/cast [@mouseover,harm,nodead][harm,nodead] Sarments
+END
+VER 3 0000000000000063 "D-Ferocious Bite" "INV_MISC_QUESTIONMARK"
+#showtooltip Morsure féroce
+/cast [@mouseover,harm,nodead][harm,nodead] Morsure féroce
+END
+VER 3 0000000000000066 "D-Growl" "INV_MISC_QUESTIONMARK"
+#showtooltip Grondement
+/cast [@mouseover,harm,nodead][harm,nodead] Grondement
+END
+VER 3 000000000000004F "D-Hibernate" "136090"
+#showtooltip Hibernation
+/cast [@mouseover,harm,nodead][harm,nodead] Hibernation
+END
+VER 3 0000000000000059 "D-Innervate" "INV_MISC_QUESTIONMARK"
+#showtooltip Innervation
+/cast [@mouseover,help,nodead][help,nodead][@player] Innervation
+END
+VER 3 000000000000005C "D-Lunar Strike" "INV_MISC_QUESTIONMARK"
+#showtooltip Feu stellaire
+/cast [@mouseover,harm,nodead][harm,nodead] Feu stellaire;
+END
+VER 3 00000000000000D3 "D-Macro Opener" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Incarnation : Appelé d’Élune(Talent, changeforme)
+/cast Frénésie vorace(Venthyrs)
+/use Appareil quantique insondable
+END
+VER 3 0000000000000064 "D-Maim" "INV_MISC_QUESTIONMARK"
+#showtooltip Estropier
+/cast [@mouseover,harm,nodead][harm,nodead] Estropier
+END
+VER 3 0000000000000065 "D-Mangle" "INV_MISC_QUESTIONMARK"
+#showtooltip Mutilation
+/cast [@mouseover,harm,nodead][harm,nodead] Mutilation
+END
+VER 3 000000000000004D "D-Moonfire" "136096"
+#showtooltip Éclat lunaire
+/cast [@mouseover,harm,nodead][harm,nodead] Éclat lunaire
+END
+VER 3 0000000000000076 "D-Mutilate" "INV_MISC_QUESTIONMARK"
+#showtooltip Mutiler
+/cast [@mouseover,harm,nodead][harm,nodead] Mutiler
+END
+VER 3 00000000000000C7 "D-Nature Force" "INV_MISC_QUESTIONMARK"
+#showtooltip [talent:1/3] Force de la nature(Talent)
+/cast [@cursor][talent:1/3] Force de la nature(Talent)
+END
+VER 3 000000000000006D "D-Nature's Cure" "INV_MISC_QUESTIONMARK"
+#showtooltip Soins naturels
+/cast [@mouseover,help,nodead][help,nodead][@player] Soins naturels
+END
+VER 3 000000000000005F "D-Rake" "INV_MISC_QUESTIONMARK"
+#showtooltip Griffure
+/cast [@mouseover,harm,nodead][harm,nodead] Griffure
+END
+VER 3 0000000000000056 "D-Regrowth" "INV_MISC_QUESTIONMARK"
+#showtooltip Rétablissement
+/cast [@mouseover,help,nodead][help,nodead][@player] Rétablissement
+END
+VER 3 0000000000000055 "D-Rejuvenation" "INV_MISC_QUESTIONMARK"
+#showtooltip Récupération
+/cast [@mouseover,help,nodead][help,nodead][@player] Récupération
+END
+VER 3 000000000000004A "D-Rez" "132132"
+#showtooltip Ressusciter
+/cast [@mouseover,help,dead][help,dead] Ressusciter
+END
+VER 3 0000000000000062 "D-Rip" "INV_MISC_QUESTIONMARK"
+#showtooltip Déchirure
+/cast [@mouseover,harm,nodead][harm,nodead] Déchirure
+END
+VER 3 0000000000000060 "D-Shred" "INV_MISC_QUESTIONMARK"
+#showtooltip Lambeau
+/cast [@mouseover,harm,nodead][harm,nodead] Lambeau
+END
+VER 3 0000000000000061 "D-Skull Bash" "INV_MISC_QUESTIONMARK"
+#showtooltip Coup de crâne
+/cast [@mouseover,harm,nodead][harm,nodead] Coup de crâne
+END
+VER 3 000000000000005D "D-Solar Beam" "INV_MISC_QUESTIONMARK"
+#showtooltip Rayon solaire
+/cast [@mouseover,harm,nodead][harm,nodead] Rayon solaire
+END
+VER 3 000000000000005A "D-Solar Wrath" "INV_MISC_QUESTIONMARK"
+#showtooltip Colère
+/cast [@mouseover,harm,nodead][harm,nodead] Colère;
+END
+VER 3 0000000000000050 "D-Soothe" "132163"
+#showtooltip Apaiser
+/cast [@mouseover,harm,nodead][harm,nodead] Apaiser
+END
+VER 3 000000000000005B "D-Starsurge" "INV_MISC_QUESTIONMARK"
+#showtooltip Éruption stellaire
+/cast [@mouseover,harm,nodead][harm,nodead] Éruption stellaire
+END
+VER 3 000000000000006F "D-Stellar Flare" "1052602"
+#showtooltip Flamboiement stellaire
+/cast [@mouseover,harm,nodead][harm,nodead] Flamboiement stellaire
+END
+VER 3 000000000000004C "D-Sunfire" "236216"
+#showtooltip Éclat solaire
+/cast [@mouseover,harm,nodead][harm,nodead] Éclat solaire
+END
+VER 3 0000000000000057 "D-Swiftmend" "INV_MISC_QUESTIONMARK"
+#showtooltip Prompte guérison
+/cast [@mouseover,help,nodead][help,nodead][@player] Prompte guérison
+END
+VER 3 00000000000000BF "D-Talent 15" "INV_MISC_QUESTIONMARK"
+#showtooltip [talent:1/2] Guerrier d’Elune; [talent:1/3] Force de la nature(Talent)
+/cast [talent:1/2] Guerrier d’Elune
+/cast [@cursor][talent:1/3] Force de la nature(Talent)
+END
+VER 3 0000000000000054 "D-Talent 60" "INV_MISC_QUESTIONMARK"
+#showtooltip [talent:4/1] Rossée puissante; [talent:4/2] Enchevêtrement de masse; [talent:4/3] Cœur de fauve(Talent)
+/cast Enchevêtrement de masse
+/cast Cœur de fauve(Talent)
+/cast Rossée puissante
+END
+VER 3 0000000000000075 "D-Talent100" "INV_MISC_QUESTIONMARK"
+#showtooltip [talent:7/2] Fureur d’Élune; [talent:7/3] Nouvelle lune
+/cast [@mouseover,harm,nodead][harm,nodead] Fureur d’Élune
+/cast [@mouseover,harm,nodead][harm,nodead] Nouvelle lune
+END
+VER 3 00000000000000C6 "D-Tp Venthyr" "INV_MISC_QUESTIONMARK"
+#showtooltip Porte des ombres(Venthyrs)
+/cast [@cursor] Porte des ombres(Venthyrs)
+END
+VER 3 000000000000006B "D-Ursol's Vortex" "INV_MISC_QUESTIONMARK"
+#showtooltip Vortex d’Ursol
+/cast [@cursor] Vortex d’Ursol
+END
+VER 3 0000000000000058 "D-Wild C/Renewal" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cancelform [@mouseover,help,noform:5/7,talent:2/3]
+/use [talent:2/2] Renouveau; [@mouseover,exists,nodead][exists,nodead][]Charge Sauvage
+END
+VER 3 000000000000006A "D-Wild Growth" "INV_MISC_QUESTIONMARK"
+#showtooltip Croissance sauvage
+/cast [@mouseover,help,nodead][help,nodead][@player] Croissance sauvage
+END
+VER 3 00000000000000E2 "Decursive" "INV_MISC_QUESTIONMARK"
+/script DecursiveRootTable.Dcr:Println('Aucun sort disponible')
+END
+VER 3 00000000000000E3 "E-Afflux d'étern" "134400"
+#showtooltip Afflux d’éternité(Bleu)
+/cast [@mouseover,harm,nodead][harm,nodead] Afflux d’éternité(Bleu)
+END
+VER 3 0000000000000007 "E-Apaisement" "134400"
+#showtooltip Apaisement
+/cast [@mouseover,harm,nodead][harm,nodead] Apaisement
+END
+VER 3 0000000000000008 "E-Arbre d'émerau" "134400"
+#showtooltip Arbre d’émeraude(Vert)
+/cast [@mouseover,help,nodead][help,nodead][@player] Arbre d’émeraude(Vert)
+END
+VER 3 0000000000000006 "E-Bûcher" "134400"
+#showtooltip Bûcher(Rouge)
+/cast [@mouseover,harm,nodead][harm,nodead] Bûcher(Rouge)
+END
+VER 3 0000000000000014 "E-Dilatation tem" "134400"
+#showtooltip Dilatation temporelle(Bronze)
+/cast [@mouseover,help,nodead][help,nodead][@player] Dilatation temporelle(Bronze)
+END
+VER 3 0000000000000005 "E-Désintégration" "134400"
+#showtooltip Désintégration(Bleu)
+/cast [@mouseover,harm,nodead][harm,nodead] Désintégration(Bleu)
+END
+VER 3 0000000000000017 "E-Flamme de caut" "134400"
+#showtooltip Flamme de cautérisation(Rouge)
+/cast [@mouseover,help,nodead][help,nodead][@player] Flamme de cautérisation(Rouge)
+END
+VER 3 0000000000000002 "E-Flamme vivante" "134400"
+#showtooltip Flamme vivante(Rouge)
+/cast [@mouseover,exists,nodead][exists,nodead][@player] Flamme vivante(Rouge)
+END
+VER 3 0000000000000003 "E-Frappe d'azur" "134400"
+#showtooltip Frappe d’azur(Bleu)
+/cast [@mouseover,harm,nodead][harm,nodead] Frappe d’azur(Bleu)
+END
+VER 3 0000000000000015 "E-Naturalisation" "134400"
+#showtooltip Naturalisation(Vert)
+/cast [@mouseover,help,nodead][help,nodead][@player] Naturalisation(Vert)
+END
+VER 3 000000000000000F "E-Retour" "134400"
+#showtooltip Retour(Bronze)
+/cast [@mouseover,help,dead][help,dead] Retour(Bronze)
+END
+VER 3 0000000000000011 "E-Réversion" "134400"
+#showtooltip Réversion(Bronze)
+/cast [@mouseover,help,nodead][help,nodead][@player] Réversion(Bronze)
+END
+VER 3 000000000000000E "E-Secourir" "134400"
+#showtooltip Secourir
+/cast [@mouseover,help,nodead][help,nodead][@player] Secourir
+END
+VER 3 0000000000000009 "E-Souffle de feu" "134400"
+#showtooltip Souffle de feu(Rouge)
+/cast [@mouseover,harm,nodead][harm,nodead] Souffle de feu(Rouge)
+END
+VER 3 000000000000000A "E-Tempête de feu" "134400"
+#showtooltip Tempête-de-feu(Rouge)
+/cast [@cursor] Tempête-de-feu(Rouge)
+END
+VER 3 0000000000000016 "E-Vol onirique" "134400"
+#showtooltip Vol onirique(Vert)
+/cast [@cursor] Vol onirique(Vert)
+END
+VER 3 0000000000000010 "E-Écho" "134400"
+#showtooltip Écho(Bronze)
+/cast [@mouseover,help,nodead][help,nodead][@player] Écho(Bronze)
+END
+VER 3 00000000000000F2 "E-Éliminer" "134400"
+#showtooltip Éliminer(Vert)
+/cast [@mouseover,help,nodead][help,nodead][@player] Éliminer(Vert)
+END
+VER 3 0000000000000004 "E-Étoile fracass" "134400"
+#showtooltip Étoile fracassante(Bleu)
+/cast [@mouseover,harm,nodead][harm,nodead] Étoile fracassante(Bleu)
+END
+VER 3 0000000000000013 "E-Étreinte verdo" "134400"
+#showtooltip Étreinte verdoyante(Vert)
+/cast [@mouseover,help,nodead][help,nodead][@player] Étreinte verdoyante(Vert)
+END
+VER 3 00000000000000C2 "H-Arcane Shot" "INV_MISC_QUESTIONMARK"
+#showtooltip Tir des Arcanes
+/cast [@mouseover,harm,nodead][harm,nodead] Tir des Arcanes
+END
+VER 3 00000000000000E4 "H-Aspect Tortue" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Aspect de la Tortue
+/cancelaura Aspect de la Tortue
+END
+VER 3 00000000000000E5 "H-Covenant Class" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Flèche résonnante(Kyrians)
+/cast [@cursor] Esprits sauvages(Faë nocturnes)
+/cast [@mouseover,harm,nodead][harm,nodead] Tir écorcheur(Venthyrs)
+/cast [@mouseover,harm,nodead][harm,nodead] Chakram de mort(Nécro-seigneurs)
+END
+VER 3 00000000000000DD "H-Flèche dispers" "INV_MISC_QUESTIONMARK"
+#showtooltip Flèche de dispersion(Talent JcJ)
+/cast [@mouseover,harm,nodead][harm,nodead] Flèche de dispersion(Talent JcJ)
+END
+VER 3 00000000000000C9 "H-Flèche gémissa" "INV_MISC_QUESTIONMARK"
+#showtooltip Flèche gémissante
+/cast [@mouseover,harm,nodead][harm,nodead] Flèche gémissante
+END
+VER 3 00000000000000E6 "H-Flèches multip" "INV_MISC_QUESTIONMARK"
+#showtooltip Flèches multiples
+/cast [@mouseover,harm,nodead][harm,nodead] Flèches multiples
+END
+VER 3 000000000000000D "H-Fusée éclairan" "INV_MISC_QUESTIONMARK"
+#showtooltip Fusée éclairante
+/cast [@cursor] Fusée éclairante
+END
+VER 3 00000000000000D1 "H-Harpon" "INV_MISC_QUESTIONMARK"
+#showtooltip Harpon
+/cast [@mouseover,harm,nodead][harm,nodead] Harpon
+END
+VER 3 00000000000000C4 "H-Heal/Camo" "INV_MISC_QUESTIONMARK"
+#showtooltip [talent:3/2] Enthousiasme; [talent:3/3] Dissimulation
+/cast Enthousiasme
+/cast Dissimulation
+END
+VER 3 00000000000000D5 "H-Intimidation" "INV_MISC_QUESTIONMARK"
+#showtooltip Intimidation
+/cast [@mouseover,harm,nodead][harm,nodead] Intimidation
+END
+VER 3 00000000000000E7 "H-Marque du chas" "INV_MISC_QUESTIONMARK"
+#showtooltip Marque du chasseur
+/cast [@mouseover,harm,nodead][harm,nodead] Marque du chasseur
+END
+VER 3 0000000000000001 "H-Misdirection" "INV_MISC_QUESTIONMARK"
+#showtooltip Détournement
+/stopcasting
+/cast [@mouseover,help][@pet,exists][@target] Détournement
+END
+VER 3 00000000000000D2 "H-Morsure Serpen" "INV_MISC_QUESTIONMARK"
+#showtooltip Morsure de serpent
+/cast [@mouseover,harm,nodead][harm,nodead] Morsure de serpent
+END
+VER 3 00000000000000CF "H-Move pet" "INV_MISC_QUESTIONMARK"
+#showtooltip Déplacer(Commande du familier)
+/petmoveto [@cursor]
+END
+VER 3 00000000000000D0 "H-Muselière" "INV_MISC_QUESTIONMARK"
+#showtooltip Muselière
+/cast [@mouseover,harm,nodead][harm,nodead] Muselière
+END
+VER 3 00000000000000D7 "H-Ordre de tuer" "INV_MISC_QUESTIONMARK"
+#showtooltip Ordre de tuer
+/petassist
+/petattack
+/cast [pet] Ordre de tuer; Call Pet 1
+/use [@pettarget] Griffe
+/use [@pettarget] Morsure
+/use [@pettarget]Smack
+END
+VER 3 00000000000000CA "H-Pet BL macro" "2143073"
+/cast [@pet, dead] Ressusciter le familier; [nopet] Appel du familier 2; [pet] Renvoyer le familier
+END
+VER 3 00000000000000DF "H-Pet BM" "606545"
+/cast [@pet, dead] Ressusciter le familier; [nopet] Appel du familier 5; [pet] Renvoyer le familier
+END
+VER 3 00000000000000DE "H-Pet PvP" "132193"
+/cast [@pet, dead] Ressusciter le familier; [nopet] Appel du familier 1; [pet] Renvoyer le familier
+END
+VER 3 00000000000000E8 "H-Piège de goudr" "INV_MISC_QUESTIONMARK"
+#showtooltip Piège de goudron
+/cast [@cursor] Piège de goudron
+END
+VER 3 00000000000000DC "H-Piège explo+" "INV_MISC_QUESTIONMARK"
+#showtooltip Piège hautement explosif(Talent JcJ)
+/cast [@cursor] Piège hautement explosif(Talent JcJ)
+END
+VER 3 00000000000000E9 "H-Piège givrant" "INV_MISC_QUESTIONMARK"
+#showtooltip Piège givrant
+/cast [@cursor] Piège givrant
+END
+VER 3 00000000000000EA "H-Salve" "INV_MISC_QUESTIONMARK"
+#showtooltip Salve
+/cast [@cursor] Salve
+END
+VER 3 00000000000000E0 "H-Soins via Pet" "INV_MISC_QUESTIONMARK"
+#showtooltip Guérison spirituelle(Technique exotique)
+/cast [@player] Guérison spirituelle(Technique exotique)
+END
+VER 3 00000000000000D6 "H-Tir acéré" "INV_MISC_QUESTIONMARK"
+#showtooltip Tir acéré
+/cast [@mouseover,harm,nodead][harm,nodead] Tir acéré
+END
+VER 3 000000000000000C "H-Tir assuré" "INV_MISC_QUESTIONMARK"
+#showtooltip Tir assuré
+/cast [@mouseover,harm,nodead][harm,nodead] Tir assuré
+END
+VER 3 00000000000000EB "H-Tir de lien" "INV_MISC_QUESTIONMARK"
+#showtooltip Tir de lien
+/cast [@cursor] Tir de lien
+END
+VER 3 00000000000000EC "H-Tir de riposte" "INV_MISC_QUESTIONMARK"
+#showtooltip Tir de riposte
+/cast [@mouseover,harm,nodead][harm,nodead] Tir de riposte
+END
+VER 3 00000000000000ED "H-Tir explosif" "INV_MISC_QUESTIONMARK"
+#showtooltip Tir explosif
+/cast [@mouseover,harm,nodead][harm,nodead] Tir explosif
+END
+VER 3 00000000000000EE "H-Tir mortel" "INV_MISC_QUESTIONMARK"
+#showtooltip Tir mortel
+/cast [@mouseover,harm,nodead][harm,nodead] Tir mortel
+END
+VER 3 00000000000000EF "H-Tir rapide" "INV_MISC_QUESTIONMARK"
+#showtooltip Tir rapide
+/cast [@mouseover,harm,nodead][harm,nodead] Tir rapide
+END
+VER 3 00000000000000F0 "H-Tir tranquilis" "INV_MISC_QUESTIONMARK"
+#showtooltip Tir tranquillisant
+/cast [@mouseover,harm,nodead][harm,nodead] Tir tranquillisant
+END
+VER 3 00000000000000C3 "H-Trait de choc" "INV_MISC_QUESTIONMARK"
+#showtooltip Trait de choc
+/cast [@mouseover,harm,nodead][harm,nodead] Trait de choc
+END
+VER 3 00000000000000F1 "H-Visée" "INV_MISC_QUESTIONMARK"
+#showtooltip Visée
+/cast [@mouseover,harm,nodead][harm,nodead] Visée
+END
