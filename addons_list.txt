@@ -1,36 +1,35 @@
-Core addons:
-    - ElvUI (for practically all game interface elements displayed)
-    - Weak Auras
+Core addons:  
     - BigWigs (for raid abilities alerts)
     - Details (for dps/hps/damages taken information)
+    - ElvUI (for practically all game interface elements displayed)
     - LittleWigs (for dungeons abilities alerts)
     - MaxCam (to increase the camera distance of the character)
-    - Method Raid Tools (to have party CDs tracking, raid notes, etc)
+    - Method Raid Tools (to have party's CDs tracking, raid notes, etc)
     - Mythic Dungeon Tools (to have ways to follow in dungeons)
-    - OmniCD (to have numbers instead of default display of CDs)
-    - Plater (to have better nameplates)
+    - OmniCD (to have CDs of party/raid players in party/raid frames)
+    - Plater Nameplates (to have better nameplates)
     - Quartz (to have a better cast bar)
-    - WA Soundpack (to have more Weak Auras sounds)
+    - Weak Auras (to improve the game quality, via a better class cycle tracking, automate some actions, etc)
+    - ShareMedia_Causese (to have more Weak Auras sounds)
 
 
 Healer addons:
-    - BigDebuffs
-    - Decursive (sound alerts when dispells are necessary)
-    - OmniBar
-    - OmniCC
-    - SWRaidCD
+    - BigDebuffs (to improve the buffs/debuffs tracking)
+    - Decursive (sound alerts when dispells are necessary)    - 
+    - OmniCC (to have numbers for all CDs, on the basic interface)
 
 
 PvP addons:
-    - GladiatorlosSA (for sound alerts of used abilities)
+    - GladiatorlosSA2 (for sound alerts of used abilities)
     - GladiusEx (for visual tracking of all members of instanciated PvP)
-    - 
+    - OmniBar (to see enemies's CD)
 
 Other addons:
     - GroupfinderFlags (to see the country of any player)
     - HandyNotes (to see Rares, treasures and other important PvE elements)
-    - Paste (to copy and paste more data, for example, for TomTom ways)
-    - Raider.IO (to see scores of dungeons players)
-    - RaidFadeMore
-    - TomTom (to have map coordinates)
+    - MinimapButtonButton (to regroup all minimap buttons in a single minimap button)
     - Narcissus (to do beautiful screenshots of my characters)
+    - Paste (to copy and paste more data, for example, for TomTom ways)
+    - Raider.IO Mythic Plus, Raiding, and Recruitment (to see scores of dungeons players)
+    - RaidFadeMore (to have a better visual of out of range players in the party/raid group)
+    - TomTom (to have map coordinates)    
